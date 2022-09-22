@@ -1,0 +1,90 @@
+<html>
+<head>
+	<title>FORM</title>
+	<style>
+		form{
+			padding:0px 530px 0px 475px;
+			}
+		button{
+			background-color:green;
+			color:white
+			}
+		.name{
+			background-color:red;
+			color:white;
+			border-radius:5px;
+			}
+		input{
+			float:right;
+			}
+		.DOB{
+			width:177;
+			hight:20pxpx;
+			}
+		.gender{
+			float:none;
+		}
+		#language{
+			float:none;
+			}
+	</style>
+</head>
+<body>
+	<center>
+		<h1><u>REGISTRATION FORM</u></h1>
+	</center>
+	<form>
+		<fieldset>
+			<legend style="text-align:center">Form</legend>
+			
+			<label for="name1">First Name</label>
+			<input type="text" name="name1"><br><br><br>
+			
+			<label for="name2">Last Name</label>
+			<input type="text" name="name2"><br><br><br>
+			
+			<label for="mail">Email</label>
+			<input type="email" name="mail"><br><br><br>
+			
+			<label for="mobile">Mobile No</label>
+			<input type="text" name="mobile"><br><br><br>
+			
+			<label for="gender">Gender<b>:</b></label>
+			
+			<input class="gender" type="radio" name="gender">
+			<label for="gender">male</label>
+			
+			
+			<input class="gender" type="radio" name="gender">
+			<label for="gender">female</label>
+			
+			
+			<input class="gender" type="radio" name="gender">
+			<label for="gender">others</label><br><br><br>
+			
+			
+			<label for="pass">password</label>
+		    <input type="password" name="pass"><br><br><br>
+			
+			<label for="nation">Nationality</label>
+		    <input type="text" name="nation"><br><br><br>
+			
+			<label for="DOB">DOB</label>
+			<input class="DOB" type="date" name="DOB"><br><br><br>
+			
+			<label for="add">Address</label>
+			<input type="text" name="add"><br><br><br>
+			
+			<label for="lng">Language Know<b>:</b></label>
+			<label for="lng">Tammil</label>
+			<input  id="language" type="checkbox" name="lng">
+			<label for="quln">English</label>
+			<input id="language" type="checkbox" name="lng"><br><br>
+            <center>
+				<button class="name">Reset</button>
+				<button style="border-radius:5px">summit</button>
+			</center>
+		</fieldset>
+	</form>
+</body>
+</html>
